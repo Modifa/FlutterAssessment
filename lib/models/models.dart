@@ -5,47 +5,47 @@ class Countries {
   final String alpha2Code;
   final String alpha3Code;
   final String capital;
-  //final CallingCodes callingCodes;
+  final List callingCodes;
   final String region;
   final String subregion;
   final int population;
-  //final List<double> latlng;
+  final List latlng;
   final String demonym;
   final double area;
   final double gini;
-  // final List<String> timezones;
-  //final List<String> borders;
-  //final any nativeName;
+  final List timezones;
+  final List borders;
+  final String nativeName;
   final String numericCode;
-  //final List<Currencies> currencies;
-  //final Languages languages;
-  //final Translations translations;
+  final List currencies;
+  final List languages;
+  final Map<String, dynamic> translations;
   final String flag;
-  //final RegionalBlocs regionalBlocs;
+  final List regionalBlocs;
   final String cioc;
 
   Countries(
       this.name,
       this.alpha2Code,
       this.alpha3Code,
-      //this.callingCodes,
+      this.callingCodes,
       this.region,
       this.subregion,
       this.population,
       this.capital,
-      //this.latlng,
+      this.latlng,
       this.demonym,
       this.area,
       this.gini,
-      //this.timezones,
-      //this.borders,
-      //this.nativeName,
+      this.timezones,
+      this.borders,
+      this.nativeName,
       this.numericCode,
-      //this.currencies,
-      //this.languages,
-      //this.translations,
+      this.currencies,
+      this.languages,
+      this.translations,
       this.flag,
-      //this.regionalBlocs,
+      this.regionalBlocs,
       this.cioc);
 }
 
